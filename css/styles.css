@@ -1,0 +1,77 @@
+header, section, footer, aside, nav, article {display; block;}
+body {
+	color: #666666;
+	background-color: #000000;
+	background-image: url("../Images/background.jpg");
+	background-position: center;
+	line-height: 1.4em;
+margin: 0px;}
+.wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+background-color: #ccffcc;}
+h1 {
+text-align: center;
+}
+nav, footer {
+	clear: both;
+	color: #ffffff;
+	background-color: #008000;
+height: 30px;}
+nav ul {
+	margin: 0px;
+padding: 5px 0px 5px 290px;}
+nav li {
+	display: inline;
+margin-right: 100px;
+background-color: #e6ffe6;
+border-style: inset;
+border-width: 5px;
+border-color: #e6ffe6}
+nav li a, ol, li a {
+color: #000000;
+font-size: 16px;}
+nav li a:hover, nav li a.current{
+color: #ff0000;}
+section.articles {
+	float: left;
+	width: 659px;
+border-right: 0px solid #ff5a00;}
+article {
+	clear: both;
+	overflow: auto;
+width: 100%;}
+aside {
+	width: 250px;
+	float: right;
+	background-color: #ccffcc;
+padding: 0px 0px 0px 20px;}
+aside section.links {
+border: 1px solid #008000;
+border-spacing: 5px;}
+aside section a {
+	display: block;
+	padding: 5px;
+	color: #000000;}
+aside section a:hover {
+	color: #985d6a;
+background-color: #efefef;}
+a {
+	color: #de65581;
+text-declaration: none;}
+h1, h2, h3, p {
+color: #000000;}
+h2, h3 {
+text-decoration: underline;
+text-align: center;}
+section.ContactInfo {
+	float: left;
+	width: 659px;
+border-right: 0px solid #ff5a00;}
+table, td {
+	border: 1px solid #ffffff;
+color: #000000;}
+section.AboutUs {
+	float: left;
+	width: 659px;
+border-right: 0px solid #ff5a00;}
